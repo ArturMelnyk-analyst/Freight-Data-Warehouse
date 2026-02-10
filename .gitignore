@@ -1,0 +1,27 @@
+# ---- Data ----
+data/raw/**
+!data/raw/**/.gitkeep
+
+data/interim/**
+!data/interim/**/.gitkeep
+
+data/processed/**
+!data/processed/**/.gitkeep
+
+# ---- Environment / secrets ----
+.env
+*.env
+
+# ---- Python ----
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# ---- Database dumps / backups ----
+*_dump.sql
+*.bak
+*.dump
