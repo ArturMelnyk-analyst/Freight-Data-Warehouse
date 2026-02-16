@@ -25,5 +25,10 @@ def get_engine() -> Engine:
     password_encoded = quote_plus(password)
 
     url = f"mysql+pymysql://{user}:{password_encoded}@{host}:{port}/{db}"
-    return create_engine(url, pool_pre_ping=True)
 
+    return create_engine(
+        url,
+        pool_pre_ping=True,
+        future=True,
+        hide_parameters=True,   # prevents huge SQL dumps in errors/logs
+    )
