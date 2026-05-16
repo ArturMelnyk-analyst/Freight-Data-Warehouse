@@ -237,6 +237,32 @@ Interpretation files:
 - `docs/business_narratives.md`
 - `docs/executive_queries.md`
 
+## Tableau Dashboard
+
+A lightweight Tableau dashboard visualizes selected outputs from the SQL analytics layer.
+
+The dashboard focuses on:
+
+- Top freight corridors
+- Transportation mode share
+- Commodity concentration
+- Distance-band distribution
+
+The analytical logic remains upstream in MySQL and optimized SQL queries.
+
+Tableau functions as a business-facing presentation layer.
+
+Dashboard workbook:
+
+- `tableau/faf_freight_dashboard.twbx`
+
+Dashboard notes:
+
+- `docs/tableau_dashboard_notes.md`
+
+Dashboard screenshot:
+
+![Tableau Dashboard](images/tableau/dashboard_overview.png)
 
 ## Documentation
 
