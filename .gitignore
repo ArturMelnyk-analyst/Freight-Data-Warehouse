@@ -8,6 +8,11 @@ data/interim/**
 data/processed/**
 !data/processed/**/.gitkeep
 
+# Tableau export exceptions
+
+!data/processed/tableau/
+!data/processed/tableau/*.csv
+
 # ---- Environment / secrets ----
 .env
 *.env
