@@ -264,6 +264,10 @@ Dashboard screenshot:
 
 ![Tableau Dashboard](images/tableau/dashboard_overview.png)
 
+Public dashboard:
+
+- [View Tableau Dashboard](https://public.tableau.com/app/profile/artur.melnyk/viz/faf_freight_dashboard/FAFFreightAnalyticsDashboard)
+
 ## Documentation
 
 - `docs/setup.md`

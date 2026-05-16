@@ -56,6 +56,22 @@ The dashboard includes:
 
 
 
+\## Public Dashboard
+
+
+
+Interactive version:
+
+
+
+\- \[View Tableau Dashboard](https://public.tableau.com/app/profile/artur.melnyk/viz/faf\_freight\_dashboard/FAFFreightAnalyticsDashboard)
+
+
+
+\---
+
+
+
 \## Data Flow
 
 
