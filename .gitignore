@@ -30,3 +30,7 @@ Thumbs.db
 *_dump.sql
 *.bak
 *.dump
+
+# Tableau temporary/recovery files
+tableau/~*.twbr
+tableau/*.twbr
